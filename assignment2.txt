@@ -1,0 +1,14 @@
+1) Which field of the Customers table is the primary key?
+-> primary key is unique key. column or group of column in a table that uniquely identify every row in that table.
+   In Customer table "cnum" is the primary key.
+
+2) What is the 4th column of the Customers table?
+-> 4th column of the customer table is rating.
+
+3) What is another word for row? For column?
+-> another name for row is entity, tuple.
+   and for column is attribute,method.
+
+4) Why isn’t it possible to see the first five rows of a table?
+-> It is only in the case of varchar, that the row length may increase or decrease hence it is not possible to view 
+   the first or last 'N' rows of a table. 
