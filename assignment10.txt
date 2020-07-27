@@ -1,0 +1,9 @@
+Q(1)
+->select m.sname,n.sname,m.City
+  from salespeople m,salespeople n
+  where m.city=n.city and m.sname<n.sname;
+
+
+Q(2)
+->select cname,city from customers 
+  where rating=(select rating from customers where cname='Hoffman');
